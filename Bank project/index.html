@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bank Project </title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="page">
+    <div class="outer-card">
+        <div class="balance-card">
+            <div class="Banalnce-level">Current Balance</div>
+            <div class="Banalnce-amount" id="balance">$1000</div>
+            <div class="Banalnce-icon">$</div>
+        </div> 
+
+        <div class="total-card">
+            <div class="total-item">
+                <div class="total-lebel">Total Deposits</div>
+                <div class="total-amount" id="total-deposits">$0</div>
+            </div>
+            
+            <div class="total-item">
+                <div class="total-lebel">Total Withdrawals</div>
+                <div class="total-amount" id="total-withdrawals">$0</div>
+            </div>
+        </div>
+
+        <div class="bank-panel">
+           <h1>Bank Panel</h1>
+           <label for="amount">Amount:</label>
+           <input type="number" id="deposit-amount" placeholder="Enter amount" />
+           <div class="button-container">
+                <button id="deposit-button" class="btn-depo">Deposit</button>
+                <button id="withdraw-button" class="btn-withdraw">Withdraw</button>
+        </div>
+
+        <button id="reset-button" class="btn-reset">Reset</button>
+        <p id="message" class="message">Welcome</p>
+    </div>
+   
+  </div>
+<script src="script.js"></script>
+    </div>
+</body>
+
+</html>
